@@ -1,0 +1,48 @@
+@media(min-width:768px){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+.nav{
+    position: fixed;
+    top: 0;
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    background-color: black;
+     /* Animations */
+     transition-timing-function: ease-in;
+     transition: all 0.5s;
+}
+.nav_white{
+    background-color: rgb(128, 128, 128);
+}
+.nav_left{
+   margin-top: 15px;
+   margin-left: 25px;
+   margin-right: 15px;
+   margin-bottom: 15px;
+    color: red;
+}
+.nav_left >h1{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: transform 290ms;
+    margin-left: 100px;
+    
+}
+.nav_left >h1:hover{
+    opacity: 1;
+    transform: scale(1.09);
+}
+
+.nav_right{
+    display: flex;
+    flex:0.6;
+    
+}
+    
+  
+ 

@@ -1,0 +1,68 @@
+@media(min-width:768px)
+{
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.banner{
+    
+    background-color: black;
+    height: 80vh;
+    width: 95%;
+    color: white;
+    padding-left: 100px;
+    padding-top: 140px;
+}
+.red{
+    color: red;
+}
+.banner_1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+    
+}
+.banner > h1{
+
+    color: white;
+}
+.banner_1{
+    margin-bottom: 15px;
+}
+.banner_2 > h1{
+    font-size: 80px;
+    font-weight: 600;
+
+}
+.banner_3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.banner_4{
+    margin:15px 0;
+    font-size: 1.5rem;
+
+}
+.banner_logo{
+    display: flex;
+
+}
+.logo_2{
+    margin-left: 20px;
+}
+.banner_button{
+    margin-top: 45px;
+}
+.banner_button > a > button{
+    /* padding:10px 35px;
+    font-size: 2rem; */
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
